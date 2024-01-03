@@ -47,6 +47,14 @@ button {
     padding: 0 10px;
     margin: 0 auto;
 }
+.header{
+    background-image: url(../images/header-bg.svg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+.header__inner{
+    min-height: 100vh;
+}
 .header-top{
     padding-top: 32px;
     display: flex;
@@ -65,4 +73,26 @@ button {
 }
 .phone{
     color: #BB8A52;
+}
+.header-content__inner{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 22px;
+    padding-top: 63px;
+}
+.header-content__text{
+    max-width: 510px;
+}
+.header-content__text span{
+    color: red;
+}
+.header-content__title{
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 600;
+    margin: 20px 0 80px;
+    max-width: 427px;
+}
+.header-content-btn{
+
 }
