@@ -8,13 +8,12 @@
 html,
 body {
     height: 100%;
-
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-    color: #274C5B;
-    font-weight: 800; 
+    color: #0C3E2E;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Balsamiq Sans', sans-serif;
+    font-family: 'Kaisei Decol', serif; */
 }
 a {
     text-decoration: none;
@@ -26,7 +25,6 @@ ul {
 button {
     border: none;
     padding: 0;
-    background-color: transparent; 
 }
 
 .wrapper {
@@ -53,4 +51,18 @@ button {
     padding-top: 32px;
     display: flex;
     justify-content: space-between;
+}
+.menu{
+    
+}
+.menu__list{
+    display: flex;
+    gap: 0 30px;
+}
+.menu__link{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.phone{
+    color: #BB8A52;
 }
