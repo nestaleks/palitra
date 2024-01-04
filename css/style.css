@@ -10,10 +10,16 @@ body {
     height: 100%;
     color: #0C3E2E;
     font-size: 18px;
+    line-height: 1.2;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     /* font-family: 'Balsamiq Sans', sans-serif;
     font-family: 'Kaisei Decol', serif; */
+}
+.title{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 50px;
 }
 a {
     text-decoration: none;
@@ -26,7 +32,6 @@ button {
     border: none;
     padding: 0;
 }
-
 .wrapper {
     min-height: 100%;
     display: -webkit-box;
@@ -51,17 +56,19 @@ button {
     background-image: url(../images/header-bg.svg);
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: contain;
+    margin-bottom: 150px;
 }
 .header__inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     min-height: 100vh;
 }
 .header-top{
     padding-top: 32px;
     display: flex;
     justify-content: space-between;
-}
-.menu{
-    
 }
 .menu__list{
     display: flex;
@@ -77,14 +84,14 @@ button {
 .header-content__inner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 0 22px;
-    padding-top: 63px;
 }
 .header-content__text{
     max-width: 510px;
 }
 .header-content__text span{
-    color: red;
+    color: #CC2E2E;
 }
 .header-content__title{
     font-size: 48px;
@@ -94,5 +101,45 @@ button {
     max-width: 427px;
 }
 .header-content-btn{
-
+    background-color: #FFBA00;
+    padding: 20px 32px;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.header__text{
+    font-size: 24px;
+    text-align: center;
+    padding: 25px 0;
+}
+.about{
+    margin-bottom: 150px;
+}
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+}
+.about__inner-text {
+    max-width: 506px;
+    margin-bottom: 30px;
+}
+.about__inner-text span{
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: 24px;
+}
+.about__inner-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.about__inner-list {
+    display: flex;
+    gap: 0 30px;
+    text-align: center;
+    color: #BB8A52;
+}
+.about__inner-list dt{
+    font-size: 48px;
+    margin-bottom: 5px;
 }
