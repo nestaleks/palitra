@@ -143,3 +143,33 @@ button {
     font-size: 48px;
     margin-bottom: 5px;
 }
+.why{
+    margin-bottom: 150px;
+}
+.why__text{
+    max-width: 580px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.why__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+}
+.why__inner-list{
+    list-style-type: none;
+    counter-reset: my-counter;
+}
+.why__inner-item::before{
+    content: counter(my-counter);
+    counter-increment: my-counter;
+}
+.why__inner-item{
+    font-size: 28px;
+    font-weight: 600;
+}
+.why__inner-item + .why__inner-item{
+    margin-top: 50px;
+}
