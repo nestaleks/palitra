@@ -218,13 +218,12 @@ button {
 }
 .services__list{
     display: flex;
-    gap: 0 61px;
-    justify-content: center;
-}
-.services__item{
+    padding: 0 25px;
+    gap: 20px;
+    justify-content: space-between;
     text-align: center;
 }
 .services__item-text{
     font-size: 24px;
-    margin-top: 20px;
+    padding-top: 20px;
 }
