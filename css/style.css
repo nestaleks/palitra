@@ -29,6 +29,7 @@ ul {
     list-style: none; 
 }
 button {
+    background-color: transparent;
     border: none;
     padding: 0;
 }
@@ -340,14 +341,36 @@ button {
 .accordeon {
     column-count: 2;
     gap: 0 22px;
+    
 }
 .questions__accordeon {
+    
 }
 .accordeon__item {
     margin-bottom: 40px;
+    width: 100%;
 }
 .accordeon__title {
     font-size: 24px;
+    text-align: left;
+    border: none;
+    border-radius: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    padding-right: 70px;
+    position: relative;
+    width: 90%;
+}
+.accordeon__title::after{
+    content: '';
+    position: absolute;
+    background-image: url(../images/accordeon-arrow.svg);
+    width: 15px;
+    height: 26px;
+    top: 3px;
+    right: 50px;
 }
 .accordeon__descr {
+    display: none;
+    
 }
