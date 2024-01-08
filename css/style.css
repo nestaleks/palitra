@@ -279,3 +279,28 @@ button {
     padding: 20px;
     background-color: #FFBA00;
 }
+.work{
+    margin-bottom: 150px;
+}
+.work__list{
+    list-style-type: none;
+    counter-reset: my-counter;
+}
+.work__item{
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    line-height: 185px;
+    padding-left: 64px;
+}
+.work__item::before{
+    content: counter(my-counter, decimal-leading-zero);
+    counter-increment: my-counter;
+    font-size: 128px;
+    font-family: 'Kaisei Decol', serif;
+    color: rgba(109, 151, 115, 0.20);
+    font-weight: 400;
+    letter-spacing: -12px;
+    position: absolute;
+    left: 0;
+}
