@@ -285,6 +285,11 @@ button {
 .work__list{
     list-style-type: none;
     counter-reset: my-counter;
+    max-width: 1070px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0 15px;
 }
 .work__item{
     font-size: 28px;
@@ -303,4 +308,46 @@ button {
     letter-spacing: -12px;
     position: absolute;
     left: 0;
+}
+.team{
+    margin-bottom: 150px;
+}
+.team__text{
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+.team__list{
+    display: flex;
+    justify-content: center;
+    gap: 0 50px;
+}
+.team__item{
+    width: 200px;
+}
+.team__item-img{
+    border: 1px solid #FFBA00;
+}
+.team__item-name{
+    padding: 10px 0 15px;
+    text-align: center;
+}
+.team__item-descr{
+    text-align: center;
+}
+.questions {
+    margin-bottom: 110px;
+}
+.accordeon {
+    column-count: 2;
+    gap: 0 22px;
+}
+.questions__accordeon {
+}
+.accordeon__item {
+    margin-bottom: 40px;
+}
+.accordeon__title {
+    font-size: 24px;
+}
+.accordeon__descr {
 }
