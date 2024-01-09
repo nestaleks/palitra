@@ -418,10 +418,35 @@ button {
     color: #D9D9D9;
 }
 .form__btn {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFBA00;
+    display: inline-block;
+    padding: 20px 41px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    cursor: pointer;
 }
 .form__link {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.form__link span{
+    border-bottom: 1px solid #0C3E2E;
+}
+.form__link img{
+    margin-left: 31px;
 }
 .contact-form__images {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-form-img-3{
+    grid-column: 1 / -1;
 }
 .contact-form-img {
+    border-radius: 40px;
+    border: 1px solid #FFBA00;
 }
