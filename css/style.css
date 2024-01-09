@@ -1,10 +1,12 @@
+html{
+    box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
     -webkit-box-sizing: inherit;
           box-sizing: inherit; 
         }
-
 html,
 body {
     height: 100%;
@@ -372,5 +374,54 @@ button {
 }
 .accordeon__descr {
     display: none;
-    
+}
+.contact-form {
+    margin-bottom: 150px;
+}
+.contact-form__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.contact-form__content {
+}
+.title {
+}
+.contact-form__text {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.form {
+}
+.form__text {
+    margin-bottom: 15px;
+}
+.form__input {
+    max-width: 520px;
+    width: 100%;
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid#0C3E2E;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-left: 28px;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.form__input::placeholder{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #D9D9D9;
+}
+.form__btn {
+}
+.form__link {
+}
+.contact-form__images {
+}
+.contact-form-img {
 }
