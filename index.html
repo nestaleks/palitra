@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Inter:wght@500;600;700&family=Kaisei+Decol&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -315,6 +316,42 @@
       <section class="reviews">
         <div class="container">
           <h2 class="title">Відгуки</h2>
+          <!-- СЛАЙДЕР -->
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img class="reviews__item-photo" src="./images/review-1.jpg" alt="">
+                  Юлія, м. Київ
+                </p>
+                <p class="reviews__item-text">Зворушливий ландшафт, талановита команда. Креативність у кожній деталі. Професійно та ефективно виконана робота. Задоволений вибором!</p>
+              </div>
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img class="reviews__item-photo" src="./images/review-2.jpg" alt="">
+                  Олександр, м. Вінниця
+                </p>
+                <p class="reviews__item-text">Професійний та уважний підхід до кожної деталі. Результат перевершив очікування! Висока якість роботи та ефективна комунікація. Рекомендую з упевненістю!</p>
+              </div>
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img class="reviews__item-photo" src="./images/review-3.jpg" alt="">
+                  Вікторія, м. Харків
+                </p>
+                <p class="reviews__item-text">Зворушливий ландшафт, талановита команда. Креативність у кожній деталі. Професійно та ефективно виконана робота. Задоволена вибором!</p>
+              </div>
+              <div class="swiper-slide reviews__item">
+                <p class="reviews__item-name">
+                  <img class="reviews__item-photo" src="./images/review-4.jpg" alt="">
+                  Олег, м. Ужгород
+                </p>
+                <p class="reviews__item-text">Захоплюючий ландшафт, неймовірні ідеї. Компетентна та доброзичлива команда. Вражаюча реалізація задуманого. Висока якість послуги. Рекомендую з упевненістю!</p>
+              </div>
+            </div>
+            <!-- СТРІЛКИ НАВІГАЦІЇ -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
         </div>
       </section>
       <section class="contacts">
@@ -390,6 +427,7 @@
       </div>
     </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

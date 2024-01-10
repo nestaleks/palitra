@@ -450,8 +450,26 @@ button {
     border-radius: 40px;
     border: 1px solid #FFBA00;
 }
-
-
+.reviews{
+    margin-bottom: 150px;
+}
+.reviews__item{
+    font-size: 24px;
+}
+.reviews__item-name{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.reviews__item-photo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.reviews__item-text{
+    
+}
 
 
 
