@@ -1,11 +1,13 @@
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.reviews__slider', {
     // закільцьоване обертання слайдів
     loop: true,
-
+    //відображена кількість слайдів
+    slidesPerView: 2,
+    spaceBetween: 22,
     // стрілки навігації
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
+      nextEl: '.reviews__item-next',
+      prevEl: '.reviews__item-prev',
     },
   
   });

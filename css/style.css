@@ -453,6 +453,9 @@ button {
 .reviews{
     margin-bottom: 150px;
 }
+.reviews__slider{
+    padding-bottom: 55px;
+}
 .reviews__item{
     font-size: 24px;
 }
@@ -468,9 +471,22 @@ button {
     margin-right: 20px;
 }
 .reviews__item-text{
-    
+    padding: 10px;
+    text-align: justify;
 }
-
+.reviews__item-arrow{
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+}
+.reviews__item-prev{
+    left: 50%;
+    transform: translateX(-69px);
+}
+.reviews__item-next{
+    right: 50%;
+    transform: translateX(69px);
+}
 
 
 
