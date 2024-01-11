@@ -115,6 +115,12 @@ button {
     text-align: center;
     padding: 25px 0;
 }
+.main{
+    background-image: url(../images/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
 .about{
     margin-bottom: 150px;
 }
@@ -300,6 +306,7 @@ button {
     position: relative;
     line-height: 185px;
     padding-left: 64px;
+    
 }
 .work__item::before{
     content: counter(my-counter, decimal-leading-zero);
@@ -311,6 +318,8 @@ button {
     letter-spacing: -12px;
     position: absolute;
     left: 0;
+    -webkit-text-stroke: 1px rgb(109, 151, 115);
+    text-stroke: 1px rgb(109, 151, 115);
 }
 .team{
     margin-bottom: 150px;
@@ -487,9 +496,6 @@ button {
     right: 50%;
     transform: translateX(69px);
 }
-
-
-
 .contacts{
     margin-bottom: 150px;
 }
