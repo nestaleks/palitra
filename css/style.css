@@ -35,6 +35,11 @@ button {
     border: none;
     padding: 0;
 }
+svg path {
+    stroke:inherit;
+    stroke-width:inherit;
+    fill:inherit;
+}
 .wrapper {
     min-height: 100%;
     display: -webkit-box;
@@ -109,6 +114,14 @@ button {
     display: inline-block;
     margin-top: 50px;
     font-size: 20px;
+}
+.header-content-btn:hover{
+    background-color: #0C3E2E;
+    color: #D9D9D9;
+}
+.header-content-btn:active{
+    background-color: #0C3E2E;
+    color: #FFBA00;
 }
 .header__text{
     font-size: 24px;
@@ -288,6 +301,14 @@ button {
     padding: 20px;
     background-color: #FFBA00;
 }
+.prices__item-btn:hover{
+    background-color: #0C3E2E;
+    color: #D9D9D9;
+}
+.prices__item-btn:active{
+    background-color: #0C3E2E;
+    color: #FFBA00;
+}
 .work{
     margin-bottom: 150px;
 }
@@ -315,7 +336,7 @@ button {
     font-family: 'Kaisei Decol', serif;
     color: rgba(109, 151, 115, 0.20);
     font-weight: 400;
-    letter-spacing: -12px;
+    letter-spacing: -7px;
     position: absolute;
     left: 0;
     -webkit-text-stroke: 1px rgb(109, 151, 115);
@@ -393,14 +414,10 @@ button {
 }
 .contact-form__content {
 }
-.title {
-}
 .contact-form__text {
     font-size: 28px;
     font-weight: 600;
     margin-bottom: 15px;
-}
-.form {
 }
 .form__text {
     margin-bottom: 15px;
@@ -435,6 +452,14 @@ button {
     margin-bottom: 40px;
     font-size: 20px;
     cursor: pointer;
+}
+.form__btn:hover{
+    background-color: #0C3E2E;
+    color: #D9D9D9;
+}
+.form__btn:active{
+    background-color: #0C3E2E;
+    color: #FFBA00;
 }
 .form__link {
     display: flex;
@@ -538,6 +563,14 @@ button {
 .social__list{
     display: flex;
     gap: 0 20px;
+}
+.social__list-link:hover{
+    stroke: #0C3E2E;
+    fill: #0C3E2E;
+}
+.social__list-link svg:hover{
+    stroke: #0C3E2E;
+    fill: #0C3E2E;
 }
 .footer__right{
     width: 100%;
