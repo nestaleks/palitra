@@ -71,7 +71,7 @@ svg path {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 100svh;
+    min-height: 100vh;
 }
 .header-top{
     padding-top: 32px;
@@ -585,4 +585,12 @@ svg path {
     font-size: 36px;
     font-weight: 600;
     max-width: 322px;
+}
+
+
+
+
+/******АДАПТИВ******/
+@media (max-width: 1000px){
+    
 }
