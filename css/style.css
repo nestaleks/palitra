@@ -40,6 +40,9 @@ svg path {
     stroke-width:inherit;
     fill:inherit;
 }
+.section-box{
+    margin-bottom: 150px;
+}
 .wrapper {
     min-height: 100%;
     display: -webkit-box;
@@ -56,8 +59,8 @@ svg path {
     flex: 1 1 auto; 
 }
 .container{
-    max-width: 1220px;
-    padding: 0 10px;
+    max-width: 1240px;
+    padding: 0 20px;
     margin: 0 auto;
 }
 .header{
@@ -135,7 +138,7 @@ svg path {
     background-position: top;
 }
 .about{
-    margin-bottom: 150px;
+
 }
 .about__inner {
     display: flex;
@@ -166,7 +169,7 @@ svg path {
     margin-bottom: 5px;
 }
 .why{
-    margin-bottom: 150px;
+
 }
 .why__text{
     max-width: 580px;
@@ -203,7 +206,7 @@ svg path {
     padding-left: 90px;
 }
 .projects{
-    margin-bottom: 110px;
+
 }
 .projects__text{
     font-size: 28px;
@@ -229,7 +232,6 @@ svg path {
 }
 .services{
     padding: 20px 0 40px;
-    margin-bottom: 110px;
     background: rgba(109, 151, 115, 0.10);
 }
 .services__text{
@@ -250,7 +252,7 @@ svg path {
     padding-top: 20px;
 }
 .prices{
-    margin-bottom: 130px;
+
 }
 .prices__text{
     font-size: 28px;
@@ -310,7 +312,7 @@ svg path {
     color: #FFBA00;
 }
 .work{
-    margin-bottom: 150px;
+
 }
 .work__list{
     list-style-type: none;
@@ -343,7 +345,7 @@ svg path {
     text-stroke: 1px rgb(109, 151, 115);
 }
 .team{
-    margin-bottom: 150px;
+
 }
 .team__text{
     font-size: 28px;
@@ -368,7 +370,7 @@ svg path {
     text-align: center;
 }
 .questions {
-    margin-bottom: 110px;
+
 }
 .accordeon {
     column-count: 2;
@@ -406,7 +408,7 @@ svg path {
     display: none;
 }
 .contact-form {
-    margin-bottom: 150px;
+
 }
 .contact-form__inner {
     display: grid;
@@ -485,7 +487,7 @@ svg path {
     border: 1px solid #FFBA00;
 }
 .reviews{
-    margin-bottom: 150px;
+
 }
 .reviews__slider{
     padding-bottom: 55px;
@@ -522,7 +524,7 @@ svg path {
     transform: translateX(69px);
 }
 .contacts{
-    margin-bottom: 150px;
+
 }
 .contacts__inner{
     display: flex;
@@ -592,5 +594,13 @@ svg path {
 
 /******АДАПТИВ******/
 @media (max-width: 1000px){
+    
+}
+
+@media (max-width: 768px){
+    
+}
+
+@media (max-width: 360px){
     
 }
