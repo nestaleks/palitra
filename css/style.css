@@ -40,8 +40,12 @@ svg path {
     stroke-width:inherit;
     fill:inherit;
 }
-.section-box{
+/* класс для единого отступа для всех секций, если они одинаковы в макете*/
+.section-mb{
     margin-bottom: 150px;
+}
+.section-ms{
+    margin-bottom: 110px;
 }
 .wrapper {
     min-height: 100%;
@@ -137,9 +141,6 @@ svg path {
     background-size: cover;
     background-position: top;
 }
-.about{
-
-}
 .about__inner {
     display: flex;
     justify-content: space-between;
@@ -167,9 +168,6 @@ svg path {
 .about__inner-list dt{
     font-size: 48px;
     margin-bottom: 5px;
-}
-.why{
-
 }
 .why__text{
     max-width: 580px;
@@ -204,9 +202,6 @@ svg path {
 }
 .why__inner-item.pl--90{
     padding-left: 90px;
-}
-.projects{
-
 }
 .projects__text{
     font-size: 28px;
@@ -250,9 +245,6 @@ svg path {
 .services__item-text{
     font-size: 24px;
     padding-top: 20px;
-}
-.prices{
-
 }
 .prices__text{
     font-size: 28px;
@@ -311,9 +303,6 @@ svg path {
     background-color: #0C3E2E;
     color: #FFBA00;
 }
-.work{
-
-}
 .work__list{
     list-style-type: none;
     counter-reset: my-counter;
@@ -344,9 +333,6 @@ svg path {
     -webkit-text-stroke: 1px rgb(109, 151, 115);
     text-stroke: 1px rgb(109, 151, 115);
 }
-.team{
-
-}
 .team__text{
     font-size: 28px;
     margin-bottom: 50px;
@@ -370,7 +356,7 @@ svg path {
     text-align: center;
 }
 .questions {
-
+    margin-bottom: 110px;
 }
 .accordeon {
     column-count: 2;
@@ -406,9 +392,6 @@ svg path {
 }
 .accordeon__descr {
     display: none;
-}
-.contact-form {
-
 }
 .contact-form__inner {
     display: grid;
@@ -486,9 +469,6 @@ svg path {
     border-radius: 40px;
     border: 1px solid #FFBA00;
 }
-.reviews{
-
-}
 .reviews__slider{
     padding-bottom: 55px;
 }
@@ -522,9 +502,6 @@ svg path {
 .reviews__item-next{
     right: 50%;
     transform: translateX(69px);
-}
-.contacts{
-
 }
 .contacts__inner{
     display: flex;
@@ -594,7 +571,10 @@ svg path {
 
 /******АДАПТИВ******/
 @media (max-width: 1000px){
-    
+    .section-mb,
+    .section-ms{
+        margin-bottom: 100px;
+    }
 }
 
 @media (max-width: 768px){
