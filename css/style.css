@@ -575,6 +575,9 @@ svg path {
     .section-ms{
         margin-bottom: 100px;
     }
+    .header-content__img{
+        max-width: 470px;
+    }
 }
 
 @media (max-width: 768px){
