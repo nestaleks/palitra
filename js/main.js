@@ -1,3 +1,4 @@
+// слайдер
 const swiper = new Swiper('.reviews__slider', {
     // закільцьоване обертання слайдів
     loop: true,
@@ -11,3 +12,17 @@ const swiper = new Swiper('.reviews__slider', {
     },
   
   });
+
+// мобільне меню
+const menuBtn = document.querySelector('.menu__btn');
+const menuList = document.querySelector('.menu__list');
+
+const menuClose = document.querySelector('.menu__close');
+const menuShadow = document.querySelector('.menu--close');
+
+menuBtn.addEventListener('click', ()=>{
+    menuList.classList.toggle('menu-open');
+});
+menuClose.addEventListener('click', ()=>{
+    menuShadow.classList.remove('menu-open');
+});
