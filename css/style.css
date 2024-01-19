@@ -330,7 +330,7 @@ svg path {
     font-family: 'Kaisei Decol', serif;
     color: rgba(109, 151, 115, 0.20);
     font-weight: 400;
-    letter-spacing: -7px;
+    letter-spacing: -12px;
     position: absolute;
     left: 0;
     -webkit-text-stroke: 1px rgb(109, 151, 115);
@@ -625,6 +625,16 @@ svg path {
     .prices__list{
         padding: 60px 14px 40px;
     }
+    .work__list{
+        max-width: 100%;
+    }
+    .work__item::before{
+        font-size: 96px;
+        letter-spacing: -9px;
+    }
+    .work__item{
+        padding-left: 29px;
+    }
 }
 @media (max-width: 910px){
     .services__list{
@@ -823,6 +833,21 @@ svg path {
     .prices__item{
         font-size: 18px;
     }
+    .work__item::before{
+        font-size: 64px;
+        letter-spacing: -6px;
+    }
+    .work__item{
+        font-size: 18px;
+        padding-left: 40px;
+        line-height: 93px;
+    }
+    .footer__text{
+        font-size: 28px;
+    }
+    .footer__logo img{
+        margin-bottom: 60px;
+    }
 }
 @media (max-width: 640px){
         .why__img{
@@ -841,6 +866,10 @@ svg path {
     .why__inner-item.pl--90{
         padding-left: 30px;
     }
+    .footer__inner{
+        gap: 0;
+    }
+    
 }
 @media (max-width: 500px){
     .container{
@@ -926,6 +955,27 @@ svg path {
     .prices__item-sum{
         font-size: 28px;
         margin-bottom: 20px;
+    }
+    .work__item::before{
+        font-size: 36px;
+        letter-spacing: -3px;
+    }
+    .work__item{
+        font-size: 14px;
+        padding-left: 10px;
+        line-height: 52px;
+    }
+    .footer__left{
+        align-items: flex-start;
+    }
+    .footer__right{
+        padding: 0;
+    }
+    .footer__text{
+        font-size: 18px;
+    }
+    .footer__logo img{
+        margin-bottom: 45px;
     }
 }
 @media (max-width: 360px){
