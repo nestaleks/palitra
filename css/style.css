@@ -206,7 +206,7 @@ svg path {
 .projects__text{
     font-size: 28px;
     font-weight: 600;
-    max-width: 593px;
+    max-width: 640px;
     margin-bottom: 30px;
 }
 .projects__gallery{
@@ -214,6 +214,9 @@ svg path {
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
+}
+.projects__gallery-img{
+    max-width: 100%;
 }
 .projects__gallery-item{
     gap: 20px;
@@ -616,6 +619,22 @@ svg path {
     .why__inner-list{
         padding-left: 0;
     }
+    .projects__gallery{
+        gap: 20px 10px;
+    }
+    .prices__list{
+        padding: 60px 14px 40px;
+    }
+}
+@media (max-width: 910px){
+    .services__list{
+        flex-wrap: wrap;
+        padding: 0;
+        gap: 20px 0;
+    }
+    .services__item{
+        width: 50%;
+    }
 }
 @media (max-width: 870px){
     .why__img{
@@ -686,6 +705,24 @@ svg path {
     }
     .about__inner-list{
         justify-content: center;
+    }
+    .projects__gallery{
+        gap: 20px 10px;
+    }
+    .prices__box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .prices__list{
+        max-width: 470px;
+        margin: 0 auto;
+    }
+    .prices__item-first{
+        font-size: 28px;
+    }
+    .prices__item{
+        font-size: 18px;
+        text-align: center;
     }
 }
 @media (max-width: 768px){
@@ -758,6 +795,34 @@ svg path {
     .why__inner-item.pl--90{
         padding-left: 75px;
     }
+    .projects__text{
+        font-size: 24px;
+    }
+    .projects__gallery{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .gallery--item{
+        display: none;
+    }
+    .services__text{
+        font-size: 24px;
+    }
+    .services__item-text{
+        font-size: 20px;
+    }
+    .prices__list{
+        padding: 30px 68px 40px;
+    }
+    .prices__text{
+        font-size: 24px;
+    }
+    .prices__item-first{
+        font-size: 28px;
+    }
+    .prices__item{
+        font-size: 18px;
+    }
 }
 @media (max-width: 640px){
         .why__img{
@@ -813,6 +878,54 @@ svg path {
     }
     .why__inner{
         gap: 0;
+    }
+    .projects__text{
+        font-size: 14px;
+    }
+    .projects__gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .projects__gallery-img{
+        width: 100%;
+    }
+    .projects__gallery-item:nth-child(3),
+    .projects__gallery-item:first-child{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects__gallery-item:nth-child(3) img,
+    .projects__gallery-item:first-child img{
+        order: -1;
+    }
+    .projects__gallery-text{
+        padding: 0 0 30px;
+    }
+    .services__item img{
+        max-width: 100%;
+    }
+    .services__text,
+    .services__item-text{
+        font-size: 14px;
+    }
+    .prices__list{
+        padding: 10px 15px 28px;
+    }
+    .prices__item-btn{
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .prices__text{
+        font-size: 14px;
+    }
+    .prices__item-first{
+        font-size: 24px;
+    }
+    .prices__item{
+        font-size: 14px;
+    }
+    .prices__item-sum{
+        font-size: 28px;
+        margin-bottom: 20px;
     }
 }
 @media (max-width: 360px){
